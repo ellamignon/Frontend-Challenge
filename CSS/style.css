@@ -1,0 +1,134 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+.container {
+  width: 375px;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: #FF383F;
+  margin: 0 auto;
+  padding: 10px 0 15px 15px;
+  position: fixed;
+  width: 375px;
+  height: 65px;
+  z-index: 1;
+}
+.arrow-left {
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  margin-top: -10px;
+  }
+
+.bus-stop {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+  padding-right: 16px;
+  width: 375px;
+  color: white;
+  }
+
+.busybus {
+  border-top: 5px;
+  border-bottom: 1px solid color;
+  border-style: solid;
+  border-color: lightgray;
+  padding-top: 16%;
+}
+
+.route-data {
+  position: relative;
+  box-sizing: border-box;
+  background-color: white;
+  width: 375px;
+  height: 72px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-bottom: 1px solid lightgray;
+  border-color: lightgray;
+  margin-right: 3px;
+}
+
+.content {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 74px;
+  padding-right: 16px;
+  width: 375px
+}
+
+.arrow {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  margin-top: -10px;
+  color: #8E8E93;
+}
+
+.box {
+  position: absolute;
+  left: 5%;
+  top: 40%;
+  margin-top: -15px;
+  height: 40px;
+  width: 42px;
+  background-color: #757575;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  position: absolute;
+  left: 25%;
+  top: 50%;
+  margin-top: -10px;
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: sans-serif;
+  font-size: 14px;
+  margin-top: 5px;
+  color: #757575;
+  font-weight: lighter;
+}
+
+h4 {
+margin-top: 8px;
+margin-bottom: 8px;
+margin-left: 4px;
+margin-right: 4px;
+color: white;
+font-size: 20px;
+font-weight: normal;
+line-height: 25px;
+text-align: center;
+
+
+}
+
+.route-data:hover {
+  background-color: darkgray;
+}
